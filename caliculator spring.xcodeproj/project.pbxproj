@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6129BC81AB807C700E71A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6129BC71AB807C700E71A52 /* AppDelegate.swift */; };
+		D6129BCA1AB807C700E71A52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6129BC91AB807C700E71A52 /* ViewController.swift */; };
+		D6129BCD1AB807C700E71A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6129BCB1AB807C700E71A52 /* Main.storyboard */; };
+		D6129BCF1AB807C700E71A52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6129BCE1AB807C700E71A52 /* Images.xcassets */; };
+		D6129BD21AB807C700E71A52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6129BD01AB807C700E71A52 /* LaunchScreen.xib */; };
+		D6129BDE1AB807C700E71A52 /* caliculator_springTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6129BDD1AB807C700E71A52 /* caliculator_springTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6129BD81AB807C700E71A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6129BBA1AB807C600E71A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6129BC11AB807C700E71A52;
+			remoteInfo = "caliculator spring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6129BC21AB807C700E71A52 /* caliculator spring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "caliculator spring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6129BC61AB807C700E71A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6129BC71AB807C700E71A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6129BC91AB807C700E71A52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6129BCC1AB807C700E71A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6129BCE1AB807C700E71A52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6129BD11AB807C700E71A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D6129BD71AB807C700E71A52 /* caliculator springTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "caliculator springTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6129BDC1AB807C700E71A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6129BDD1AB807C700E71A52 /* caliculator_springTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caliculator_springTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6129BBF1AB807C700E71A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6129BD41AB807C700E71A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6129BB91AB807C600E71A52 = {
+			isa = PBXGroup;
+			children = (
+				D6129BC41AB807C700E71A52 /* caliculator spring */,
+				D6129BDA1AB807C700E71A52 /* caliculator springTests */,
+				D6129BC31AB807C700E71A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6129BC31AB807C700E71A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6129BC21AB807C700E71A52 /* caliculator spring.app */,
+				D6129BD71AB807C700E71A52 /* caliculator springTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6129BC41AB807C700E71A52 /* caliculator spring */ = {
+			isa = PBXGroup;
+			children = (
+				D6129BC71AB807C700E71A52 /* AppDelegate.swift */,
+				D6129BC91AB807C700E71A52 /* ViewController.swift */,
+				D6129BCB1AB807C700E71A52 /* Main.storyboard */,
+				D6129BCE1AB807C700E71A52 /* Images.xcassets */,
+				D6129BD01AB807C700E71A52 /* LaunchScreen.xib */,
+				D6129BC51AB807C700E71A52 /* Supporting Files */,
+			);
+			path = "caliculator spring";
+			sourceTree = "<group>";
+		};
+		D6129BC51AB807C700E71A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6129BC61AB807C700E71A52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6129BDA1AB807C700E71A52 /* caliculator springTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6129BDD1AB807C700E71A52 /* caliculator_springTests.swift */,
+				D6129BDB1AB807C700E71A52 /* Supporting Files */,
+			);
+			path = "caliculator springTests";
+			sourceTree = "<group>";
+		};
+		D6129BDB1AB807C700E71A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6129BDC1AB807C700E71A52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6129BC11AB807C700E71A52 /* caliculator spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6129BE11AB807C700E71A52 /* Build configuration list for PBXNativeTarget "caliculator spring" */;
+			buildPhases = (
+				D6129BBE1AB807C700E71A52 /* Sources */,
+				D6129BBF1AB807C700E71A52 /* Frameworks */,
+				D6129BC01AB807C700E71A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "caliculator spring";
+			productName = "caliculator spring";
+			productReference = D6129BC21AB807C700E71A52 /* caliculator spring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6129BD61AB807C700E71A52 /* caliculator springTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6129BE41AB807C700E71A52 /* Build configuration list for PBXNativeTarget "caliculator springTests" */;
+			buildPhases = (
+				D6129BD31AB807C700E71A52 /* Sources */,
+				D6129BD41AB807C700E71A52 /* Frameworks */,
+				D6129BD51AB807C700E71A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6129BD91AB807C700E71A52 /* PBXTargetDependency */,
+			);
+			name = "caliculator springTests";
+			productName = "caliculator springTests";
+			productReference = D6129BD71AB807C700E71A52 /* caliculator springTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6129BBA1AB807C600E71A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yuta Araki";
+				TargetAttributes = {
+					D6129BC11AB807C700E71A52 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D6129BD61AB807C700E71A52 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D6129BC11AB807C700E71A52;
+					};
+				};
+			};
+			buildConfigurationList = D6129BBD1AB807C600E71A52 /* Build configuration list for PBXProject "caliculator spring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6129BB91AB807C600E71A52;
+			productRefGroup = D6129BC31AB807C700E71A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6129BC11AB807C700E71A52 /* caliculator spring */,
+				D6129BD61AB807C700E71A52 /* caliculator springTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6129BC01AB807C700E71A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6129BCD1AB807C700E71A52 /* Main.storyboard in Resources */,
+				D6129BD21AB807C700E71A52 /* LaunchScreen.xib in Resources */,
+				D6129BCF1AB807C700E71A52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6129BD51AB807C700E71A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6129BBE1AB807C700E71A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6129BCA1AB807C700E71A52 /* ViewController.swift in Sources */,
+				D6129BC81AB807C700E71A52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6129BD31AB807C700E71A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6129BDE1AB807C700E71A52 /* caliculator_springTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6129BD91AB807C700E71A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6129BC11AB807C700E71A52 /* caliculator spring */;
+			targetProxy = D6129BD81AB807C700E71A52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6129BCB1AB807C700E71A52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6129BCC1AB807C700E71A52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6129BD01AB807C700E71A52 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6129BD11AB807C700E71A52 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6129BDF1AB807C700E71A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6129BE01AB807C700E71A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6129BE21AB807C700E71A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "caliculator spring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6129BE31AB807C700E71A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "caliculator spring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6129BE51AB807C700E71A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "caliculator springTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caliculator spring.app/caliculator spring";
+			};
+			name = Debug;
+		};
+		D6129BE61AB807C700E71A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "caliculator springTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caliculator spring.app/caliculator spring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6129BBD1AB807C600E71A52 /* Build configuration list for PBXProject "caliculator spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6129BDF1AB807C700E71A52 /* Debug */,
+				D6129BE01AB807C700E71A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6129BE11AB807C700E71A52 /* Build configuration list for PBXNativeTarget "caliculator spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6129BE21AB807C700E71A52 /* Debug */,
+				D6129BE31AB807C700E71A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6129BE41AB807C700E71A52 /* Build configuration list for PBXNativeTarget "caliculator springTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6129BE51AB807C700E71A52 /* Debug */,
+				D6129BE61AB807C700E71A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6129BBA1AB807C600E71A52 /* Project object */;
+}
