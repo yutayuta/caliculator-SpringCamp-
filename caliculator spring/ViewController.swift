@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var operation: Int! = 0
     
     override func viewDidLoad() {
+        hyoujiLabel.text = String(0)
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -42,6 +43,10 @@ class ViewController: UIViewController {
         if operation == 1{
             hyoujiLabel.text = String(number + number2)
         }
+    }
+    
+    @IBAction func claer() {
+        hyoujiLabel.text = ""
     }
     
     
