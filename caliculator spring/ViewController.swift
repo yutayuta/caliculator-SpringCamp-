@@ -46,7 +46,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func claer() {
-        hyoujiLabel.text = ""
+        number = 0
+        number2 = 0
+        hyoujiLabel.text = String(0)
+
     }
     
     
